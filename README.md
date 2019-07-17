@@ -27,13 +27,14 @@ node to seek out new connections. Notable cases include –N7 has the highest sc
 has the most outgoing edges and N1 has the lowest score(0), because it does not have any
 outgoing edges.
 
-5. Closeness centrality and proximity prestige
+5. Closeness centrality 
 Closeness centrality is the inverse of the average distance of one node to the all other nodes. It
 ranges between 0 and 1 and bigger values means better closeness centrality. Notable cases
 include – N6, N7 have the highest score because they have the smallest average distance to the 
 other nodes and N10 that has the lowest score because it s average distance to other nodes is
 the longest.
 
+5. Proximity prestige
 Proximity prestige can be used to measure prestige in directed networks. Notable cases include
 – N1 that has the highest score because it has the most followers(the most nodes have direct
 path to that node) and N10 that has no followers and does not influence anyone.

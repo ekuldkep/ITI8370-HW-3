@@ -33,7 +33,7 @@ node to seek out new connections. Notable cases include –N7 has the highest sc
 has the most outgoing edges and N1 has the lowest score(0), because it does not have any
 outgoing edges.
 
-**5. Closeness centrality **
+**5. Closeness centrality**
 
 Closeness centrality is the inverse of the average distance of one node to the all other nodes. It
 ranges between 0 and 1 and bigger values means better closeness centrality. Notable cases
@@ -41,18 +41,18 @@ include – N6, N7 have the highest score because they have the smallest average
 other nodes and N10 that has the lowest score because it s average distance to other nodes is
 the longest.
 
-**5. Proximity prestige**
+**6. Proximity prestige**
 
 Proximity prestige can be used to measure prestige in directed networks. Notable cases include
 – N1 that has the highest score because it has the most followers(the most nodes have direct
 path to that node) and N10 that has no followers and does not influence anyone.
 
-**6. Betweenness centrality**
+**7. Betweenness centrality**
 
 It takes into account the number of shortest paths that pass through it. Notable cases include –
 N8 that has the highest score because it has the most shortest paths that pass through it.
 
-**7. Common neighbor based centrality**
+**8. Common neighbor based centrality**
 
 Both – Common neighbor based centrality and Jaccard measure are neighborhood based
 methods. It means that they measure the number of common neighbors between a pair of nodes
@@ -61,7 +61,7 @@ I counted common neighbors between every node with node N4. The higher the value
 probability for those nodes to connect. Does not take into account the number of other
 connections.
 
-**8. Jaccard measure**
+**9. Jaccard measure**
 
 Unlike Common neighbor based centrality, Jaccard measure takes into account the relative
 number of common neighbors between them as compared to the number of other connections.

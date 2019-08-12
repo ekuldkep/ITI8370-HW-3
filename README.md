@@ -1,6 +1,10 @@
 For this assignment I used graph from Igraph library named „Krackhardt_Kite“.
+
+![undirected graph](/Pictures/Graph.JPG)
+
 For directed graph algorithms I modified the same graph to make it directed.
 
+![directed graph](/Pictures/directedGraph.JPG)
 
 **1. Local clustering coefficent**
 
